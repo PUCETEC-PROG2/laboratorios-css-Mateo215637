@@ -1,16 +1,64 @@
 /* Los estilos se aplican a todo el documento */
 body {
 
-    background: linear-gradient(90deg, #0dc2f0, #e00f1d);
+    background: linear-gradient(90deg, #014040, #02735E, #02735E, #03A678, #F27405, #731702);
     background-size: cover;
     text-align: center;
     font-style: italic;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
+
 }
-
-
+header{
+    max-width: 800px;
+    margin:auto;
+}
+header h1 {
+    margin: auto;
+}
 .redes-sociales {
     height: 48px;
     width: 48px;
+    border: 2px dotted black;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+#sobre-mi {
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    transform: rotate(0deg) scale(1);
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+#habilidades {
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#estudios {
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#hobbies {
+    border: 2px dotted black;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 50px;
 }
